@@ -1,10 +1,14 @@
 const cardDiv = document.querySelector("#cards");
+let btnCons = [];
+const numWsapp = "541151113625"; // Wsapp number goes here 
+
+
 let services = fetch("../json/servicesList.json")
                 .then((response) => response.json())
-                .then(data => myFunc(data));
+                .then(data => createCards(data))
 
 
-function myFunc(data) {
+function createCards(data) {
     let serv = data["services"]["data"]["items"]
     for (val of serv){
         content = `<div class="card cardServ mx-2 mt-5">
@@ -13,7 +17,7 @@ function myFunc(data) {
                         <h5 class="card-title">${val["name"]}</h5>
                         <p class="card-text">${val["description"]}</p>
                         <p class="card-text">$${val["price"]}</p>
-                        <a href="#" class="btn btn-dark">Consultar</a>
+                        <button class="btn btn-dark consultar" data-wsapp="${val["wsapp"]}">Consultar</button>
                     </div>
                 </div>`;
 
@@ -21,4 +25,18 @@ function myFunc(data) {
 
     }
 
+    btnCons = document.querySelectorAll(".consultar");
+
 }
+
+function consultaWsapp(producto){
+    let wsappLink =  `https://wa.me/${numWsapp}?text=Hola!%20Queria%20consultarte%20sobre%20${producto}`;
+    window.open(wsappLink);
+};
+
+function addEventConsulta(element){
+    element.addEventListener("click", function () {consultaWsapp(this.dataset.wsapp)})
+};
+
+
+setTimeout(function (){btnCons.forEach(addEventConsulta)}, 300);
