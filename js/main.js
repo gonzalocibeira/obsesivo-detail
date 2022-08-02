@@ -7,9 +7,9 @@ let services = fetch("../json/servicesList.json")
 function myFunc(data) {
     let serv = data["services"]["data"]["items"]
     for (val of serv){
-        content = `<div class="card mx-2 mt-5" style="width: 18rem;">
+        content = `<div class="card cardServ mx-2 mt-5">
                     <img src="../images/${val["image"]}" class="card-img-top" alt="${val["alt"]}">
-                    <div class="card-body">
+                    <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">${val["name"]}</h5>
                         <p class="card-text">${val["description"]}</p>
                         <p class="card-text">$${val["price"]}</p>
