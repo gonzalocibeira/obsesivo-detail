@@ -7,28 +7,32 @@
                 "name": "Ceramico",
                 "description": "Tratamiento de recubrimiento ceramico.",
                 "price": "10.000",
-                "image": "ceramico.webp"
+                "image": "ceramico.webp",
+                "alt": "Auto con tratamiento ceramico"
             },
             {
                 "id": 2,
                 "name": "Pulido",
                 "description": "Tratamiento de pulido.",
                 "price": "5.000",
-                "image": "pulido.webp"
+                "image": "pulido.webp",
+                "alt": "Auto siendo pulido"
             },
             {
                 "id": 3,
                 "name": "Cera",
                 "description": "Tratamiento con cera carnauba.",
                 "price": "7.000",
-                "image": "cera.webp"
+                "image": "cera.webp",
+                "alt": "Productos de detailing de autos"
             },
             {
                 "id": 4,
                 "name": "Lavado Premium",
                 "description": "Lavado premium con los mejores productos.",
                 "price": "3.000",
-                "image": "lavadoP.webp"
+                "image": "lavadoP.webp",
+                "alt": "Auto siendo lavado"
             }
            ] 
         }

@@ -8,7 +8,7 @@ function myFunc(data) {
     let serv = data["services"]["data"]["items"]
     for (val of serv){
         content = `<div class="card mx-2 mt-5" style="width: 18rem;">
-                    <img src="../images/${val["image"]}" class="card-img-top" alt="...">
+                    <img src="../images/${val["image"]}" class="card-img-top" alt="${val["alt"]}">
                     <div class="card-body">
                         <h5 class="card-title">${val["name"]}</h5>
                         <p class="card-text">${val["description"]}</p>
@@ -22,10 +22,3 @@ function myFunc(data) {
     }
 
 }
-
-
-/* `<div class="card d-flex align-items-center justify-content-center mt-5 mx-2 p-2">
-        <p>${val["name"]}</p>
-        <p>${val["description"]}</p>
-        <p>$${val["price"]}</p>
-        </div>` */
