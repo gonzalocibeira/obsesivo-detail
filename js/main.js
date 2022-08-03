@@ -11,7 +11,7 @@ let services = fetch("../json/servicesList.json")
 function createCards(data) {
     let serv = data["services"]["data"]["items"]
     for (val of serv){
-        content = `<div class="card cardServ mx-2 mt-5">
+        content = `<div class="card cardServ mx-2 mt-5 border">
                     <img src="../images/${val["image"]}" class="card-img-top" alt="${val["alt"]}">
                     <div class="card-body d-flex flex-column justify-content-between">
                         <h5 class="card-title">${val["name"]}</h5>

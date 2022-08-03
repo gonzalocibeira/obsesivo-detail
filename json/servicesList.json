@@ -37,7 +37,17 @@
                 "image": "lavadoP.webp",
                 "alt": "Auto siendo lavado",
                 "wsapp": "los%20lavados%20premium."
+            },
+            {
+                "id": 4,
+                "name": "Lavado Premium",
+                "description": "Lavado premium con los mejores productos.",
+                "price": "3.000",
+                "image": "lavadoP.webp",
+                "alt": "Auto siendo lavado",
+                "wsapp": "los%20lavados%20premium."
             }
+
            ] 
         }
     }
