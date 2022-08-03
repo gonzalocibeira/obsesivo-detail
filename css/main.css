@@ -33,9 +33,11 @@ footer {
   .cardContact {
     width: 40vw; } }
 
-.carrDiv {
-  width: 35vw; }
+.slideImg {
+  width: 90vw; }
 
 @media only screen and (min-width: 1200px) {
   .cardContact {
-    width: 22vw; } }
+    width: 22vw; }
+  .slideImg {
+    width: 35vw; } }
