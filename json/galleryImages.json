@@ -1,0 +1,19 @@
+{
+    "images":[
+        {
+            "id": 1,
+            "img": "cera.webp",
+            "alt": "image alt"
+        },
+        {
+            "id": 2,
+            "img": "ceramico.webp",
+            "alt": "image alt"
+        },
+        {
+            "id": 3,
+            "img": "lavadoP.webp",
+            "alt": "image alt"
+        }
+    ]
+}
