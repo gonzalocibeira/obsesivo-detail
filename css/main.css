@@ -3,6 +3,16 @@
   margin: 0;
   padding: 0; }
 
+.navbar {
+  background-color: #686765 !important; }
+
+.navLogo {
+  width: 180px; }
+
+@media only screen and (min-width: 768px) {
+  .navLogo {
+    width: 200px; } }
+
 .icon_footer {
   width: 30px; }
 

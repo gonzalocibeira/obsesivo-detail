@@ -1,0 +1,13 @@
+.navbar{
+    background-color: $main_grey !important;
+};
+
+.navLogo{
+    width: 180px;
+};
+
+@media only screen and (min-width: 768px) {
+    .navLogo{
+        width: 200px;
+    };
+};
