@@ -37,6 +37,15 @@
                 "image": "lavadoP.webp",
                 "alt": "Auto siendo lavado",
                 "wsapp": "los%20lavados%20premium."
+            },
+            {
+                "id": 5,
+                "name": "Descontaminado de pintura",
+                "description": "Descontaminado total de la pintura, realizado con claybar.",
+                "price": "3.000",
+                "image": "pulido2.webp",
+                "alt": "Auto siendo descontaminado",
+                "wsapp": "la%20descontaminacion%20de%20pintura."
             }
            ] 
         }
