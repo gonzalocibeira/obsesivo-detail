@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- My CSS -->
     <link rel="stylesheet" href="./css/main.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>DTV Estetica</title>
 </head>
 <body>
@@ -33,28 +35,43 @@
         </div>
     </nav>
     <main>
-        <div class="d-flex align-items-center justify-content-center mt-5">
-            <div class="col-md-10">
-                <div class="h-100 p-5 text-white bg-dark rounded-3">
-                  <h2>¿Quienes somos?</h2>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus perspiciatis sint saepe veniam suscipit dicta mollitia dolorem expedita quibusdam dolorum veritatis dolor, voluptatum aliquid neque amet minima minus temporibus voluptates?
-                  Repellat repellendus adipisci quae eveniet facere rerum aliquid vel totam animi. Amet necessitatibus vero dolore, quidem molestiae harum. Aut esse fugit beatae veritatis deserunt? Officiis exercitationem minima distinctio facere animi?
-                  Sequi sapiente nihil architecto ipsum quibusdam veniam quod eaque facilis id. Velit, tempora quae exercitationem itaque sunt esse illum vitae magnam odio odit neque asperiores vero a placeat ducimus iste!
-                  Dicta odio id asperiores porro voluptatibus, nemo alias odit, ea est eaque dolor accusamus, obcaecati accusantium consequatur maiores eveniet ut enim. Tenetur mollitia provident fugit quo eaque autem blanditiis velit.
-                  Sunt illum corporis officiis, distinctio incidunt perspiciatis nesciunt quia deleniti odio labore dolore sint placeat animi aperiam molestias dolores error porro consequatur? Quaerat ipsam vel nesciunt rem error eos eaque.</p>
-                </div>
-              </div>
+        <div class="d-flex align-items-center justify-content-center mt-2">
+            <div class="p-2 p-md-5 text-dark rounded-3 cardIndex">
+                <h2>¿Quienes somos?</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus perspiciatis sint saepe veniam suscipit dicta mollitia dolorem expedita quibusdam dolorum veritatis dolor, voluptatum aliquid neque amet minima minus temporibus voluptates?
+                Repellat repellendus adipisci quae eveniet facere rerum aliquid vel totam animi. Amet necessitatibus vero dolore, quidem molestiae harum. Aut esse fugit beatae veritatis deserunt? Officiis exercitationem minima distinctio facere animi?
+                Sequi sapiente nihil architecto ipsum quibusdam veniam quod eaque facilis id. Velit, tempora quae exercitationem itaque sunt esse illum vitae magnam odio odit neque asperiores vero a placeat ducimus iste!
+                Dicta odio id asperiores porro voluptatibus, nemo alias odit, ea est eaque dolor accusamus, obcaecati accusantium consequatur maiores eveniet ut enim. Tenetur mollitia provident fugit quo eaque autem blanditiis velit.
+                Sunt illum corporis officiis, distinctio incidunt perspiciatis nesciunt quia deleniti odio labore dolore sint placeat animi aperiam molestias dolores error porro consequatur? Quaerat ipsam vel nesciunt rem error eos eaque.</p>
+            </div>
+        </div>
+        <div class="d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-center my-5  mx-md-5">
+            <div class="d-flex flex-column align-items-center justify-content-center ms-md-5" data-aos="zoom-in">
+                <img src="./images/checklist.png" class="my-1"></img>
+                <p class="border-top border-4 border-dark pt-2 text-center fs-6">Asesoramiento y servicio 100% personalizado,<br>acorde a las necesidades de tu vehículo.</p>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center mx-md-5" data-aos="zoom-in" data-aos-delay="200">
+                <img src="./images/speed.png" class="my-1"></img>
+                <p class="border-top border-4 border-dark pt-2 text-center fs-6">Rápida atención y turnos siempre disponibles.</p>
+            </div>
+            <div class="d-flex flex-column align-items-center justify-content-center me-md-5" data-aos="zoom-in" data-aos-delay="400">
+                <img src="./images/quality.png" class="my-1"></img>
+                <p class="border-top border-4 border-dark pt-2 text-center fs-6">Trabajamos sólo con los mejores productos<br>de las marcas más reconocidas del rubro.</p>
+            </div>
         </div>
     </main>
     <!-- Footer -->
-    <footer class="fixed-bottom">
-    <div class="d-flex flex-column flex-md-row align-items-center justify-content-end me-md-5 py-3">
+    <footer>
+    <div class="d-flex flex-column flex-md-row align-items-center justify-content-end bg-dark py-3">
         <img src="./images/nika.png" alt="Sraw Hat Icon" class="icon_footer me-2">
-        <span class="footer_text esText">Desarrollado por Gonzalo Cibeira - 2022</span>
+        <span class="footer_text text-light esText me-md-5">Desarrollado por Gonzalo Cibeira - 2022</span>
     </div>
     </footer>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
     <!-- My JS -->
     <script type="text/javascript" src="./js/main.js"></script>
 </body>

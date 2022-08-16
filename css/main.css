@@ -12,6 +12,9 @@ footer {
 .footer_text {
   font-weight: 700; }
 
+.cardIndex {
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px; }
+
 .cardServ {
   width: 18rem;
   height: 25rem; }
