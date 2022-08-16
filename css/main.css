@@ -23,7 +23,9 @@ footer {
   font-weight: 700; }
 
 .cardIndex {
-  box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px; }
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-left: 2px solid #ff7413;
+  border-bottom: 3px solid #ff7413; }
 
 .cardServ {
   width: 18rem;
