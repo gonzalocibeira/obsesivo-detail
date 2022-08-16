@@ -31,7 +31,9 @@ footer {
 
 .cardMap {
   width: 95vw;
-  height: 45vh; }
+  height: 45vh;
+  background-color: #686765;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px; }
 
 .locationMap {
   width: 90vw;
