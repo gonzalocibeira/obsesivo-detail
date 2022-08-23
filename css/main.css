@@ -13,6 +13,13 @@
   .navLogo {
     width: 200px; } }
 
+.img-index {
+  width: 90vw; }
+
+@media only screen and (min-width: 768px) {
+  .img-index {
+    width: 50vw; } }
+
 .icon_footer {
   width: 30px; }
 
